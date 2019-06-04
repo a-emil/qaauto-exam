@@ -35,7 +35,6 @@ public class SearchResultsPage extends BasePage{
     public boolean isSearchResultsContainsSearhTerm() {
         for (WebElement searchResult : searchResults) {
             if(searchResult.getText().contains("Selenium")){
-                System.out.println("yes");
                 return true;
             }
         }

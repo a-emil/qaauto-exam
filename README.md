@@ -9,4 +9,5 @@ What you need to run this project:
 How to run tests via comandline:
 Install Maven on your local machine
 
-
+Run next command:
+mvn clean test -DsuiteXmlFiles=search-test.xml
